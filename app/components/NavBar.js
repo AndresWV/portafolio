@@ -1,5 +1,5 @@
 import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
-import '../assets/css/nab.css'
+import '../assets/css/nav.css'
 export default function NavBar() {
     const collapseItems = [
         "ACERCA DE MÍ",
@@ -9,12 +9,12 @@ export default function NavBar() {
     ];
     return (
 
-        <Navbar className="nav">
+        <Navbar className="back navContent">
             <Navbar.Toggle showIn="xs" />
             <Navbar.Brand
                 css={{
                     "@xs": {
-                        w: "12%",
+                        w: "50%",
                     },
                 }}
             >
@@ -33,16 +33,7 @@ export default function NavBar() {
                 <Navbar.Link href="#">SOFTWARE ENGINEER</Navbar.Link>
                 <Navbar.Link href="#">CONTACTO</Navbar.Link>
             </Navbar.Content>
-            <Navbar.Content
-                css={{
-                    "@xs": {
-                        w: "12%",
-                        jc: "flex-end",
-                    },
-                }}
-            >
-                
-            </Navbar.Content>
+            
             <Navbar.Collapse>
                 {collapseItems.map((item, index) => (
                     <Navbar.CollapseItem

@@ -1,0 +1,97 @@
+.Contentback {
+    background-color: white;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+.aboutMyContent {
+    padding-top: 5%;
+}
+
+.secJob,
+.principalJob {
+    font-size: 5vw;
+}
+
+.secJob {
+    font-size: 3.2vw;
+}
+
+.descriptionText {
+    padding-top: 2%;
+    font-size: 1.5vw;
+}
+
+.dataEngineerContent {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.stackDataEngineer {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media screen and (max-width:1280px) {
+    .logoStackDataEng {
+        width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media screen and (max-width:961px) {
+    .logoStackDataEng {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .secJob,
+    .principalJob {
+        font-size: 6vw;
+    }
+
+    .secJob {
+        font-size: 4.2vw;
+    }
+
+    .descriptionText {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:664px) {
+    .logoStackDataEng {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .secJob,
+    .principalJob {
+        font-size: 7vw;
+    }
+
+    .secJob {
+        font-size: 5.2vw;
+    }
+
+    .descriptionText {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width:407px) {
+    .logoStackDataEng {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .secJob,
+    .principalJob {
+        font-size: 8vw;
+    }
+
+    .secJob {
+        font-size: 6.2vw;
+    }
+
+    .descriptionText {
+        font-size: 4.5vw;
+    }
+}
