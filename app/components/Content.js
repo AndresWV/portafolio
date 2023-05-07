@@ -13,9 +13,9 @@ const logosSoftwareEnginer = ['/img/next.png', '/img/js.png', '/img/laravel.png'
 const projectsDataEng = [
   {
     logo: '/img/beam.png',
-    title: 'Proyecto introductorio a Apache Beam',
-    link: 'https://githubo.com/AndresWV/ejemplo.R',
-    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
+    title: 'Apache Beam aplicado al Quijote de la Mancha',
+    link: 'https://github.com/AndresWV/00-Pipeline',
+    description: 'Proyecto de apache beam hecho en Python, de manera individual. El proyecto consiste en trabajar sobre la famosa novela del Quijote de la Mancha, en PCollections para realizar un word count, que incluye una limpieza de palabras, con una salida lista para ser exportada en formato csv.'
   },
   {
     logo: '/img/r.png',
@@ -31,6 +31,50 @@ const projectsDataEng = [
   },
   {
     logo: '/img/python.png',
+    title: 'Regresion Lineal aplicada a dataset de automóviles mpg',
+    link: 'https://github.com/AndresWV/AndresWV.github.io/blob/main/S07-Linear-Models/Tarea_regresion_lineal.ipynb',
+    description: 'En este proyecto se investigó acerca del conjunto de datos auto mpg perteneciente a la librería seaborn con el objetivo de estimar el rendimiento promedio de automóviles usando regresión lineal.'
+  },
+  {
+    logo: '/img/python.png',
+    title: 'Machine Learning - KNN aplicado a peguin dataset',
+    link: 'https://github.com/AndresWV/AndresWV.github.io/blob/main/3_fold_CV_para_Penguin_dataset.ipynb',
+    description: 'En este proyecto se investigó acerca del conjunto de datos "penguin dataset" perteneciente a kaggle con el objetivo de entrenar un modelo y generar predicción con los datos, además de realizar un proceso de validación cruzada.'
+  },
+  {
+    logo: '/img/python.png',
+    title: 'Machine Learning - Human Activity Recognition | WISDM-HAR1',
+    link: 'https://github.com/AndresWV/AndresWV.github.io/blob/main/3_fold_CV_para_Penguin_dataset.ipynb',
+    description: 'Se aplicará el método OSEMN para el desarrollo del proyecto, el cual cubre cada paso del ciclo de vida de un proyecto de Machine Learning. Este proyecto se basa en el dataset https://www.cis.fordham.edu/wisdm/dataset.php, el cual es un conjunto de datos que incluyen actividades de 19 sujetos mientras realizaron 6 actividades durante 3 minutos cada una. El proceso utilizó señales obtenidas de acelerómetro y giroscopio incluidos en teléfonos y relojes inteligentes, ubicados en bolsillo y muñeca respectivamente.'
+  },
+  {
+    logo: '/img/python.png',
+    title: 'TensorFlow | LibSVM - Heart Attack Analysis & Prediction Dataset',
+    link: 'https://colab.research.google.com/drive/17k_VE3_GA-KBc8P4Kv_lRcB3YN76Tul1?usp=sharing#scrollTo=7Zup9THO_0mu',
+    description: 'Proyecto en modalidad colaborativa (con 2 personas más), el cual consta de una implementación de Machine Learning a través de LibSVM y una implementación de Deep Learning a través de Tensorflow, aplicada al dataset Heart Attack Analysis & Prediction Dataset de Kaggle, Este proyecto es realizado con el fin de resolver un problema supervisado de clasificación, el cual busca detectar personas con tendencias a ataques cardiacos'
+  },
+]
+const projectsSoftwareEng = [
+  {
+    logo: '/img/vue.png',
+    title: 'Tracking de bus para la Universidad de Talca',
+    link: 'https://github.com/AndresWV/tracking-bus-utal',
+    description: 'Proyecto académico, realizado en colaborativo con 4 compañeros. El proyecto consiste en un tracking de GPS, para el bus de la Universidad de Talca. El front del proyecto fue desarrollado en Vue, el back fue desarrollado con express. Para recibir las coordenadas de geolocalización se hace a través de un socket, el cual fue configurado previamente en GCP'
+  },
+  {
+    logo: '/img/next.png',
+    title: 'Proyecto introductorio a R',
+    link: 'https://githubo.com/AndresWV/ejemplo.R',
+    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
+  },
+  {
+    logo: '/img/laravel.png',
+    title: 'Proyecto introductorio a Apache Airflow',
+    link: 'https://githubo.com/AndresWV/ejemplo.R',
+    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
+  },
+  {
+    logo: '/img/vue.png',
     title: 'Proyecto introductorio a Python',
     link: 'https://githubo.com/AndresWV/ejemplo.R',
     description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
@@ -98,7 +142,7 @@ export const Content = () => (
         </Row>
       </Col>
     </Row>
-    {projectsDataEng.map((project, index) => (
+    {projectsSoftwareEng.map((project, index) => (
       <Row key={index}>
         <Project key={project} project={project} />
       </Row>

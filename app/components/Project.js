@@ -26,10 +26,10 @@ export default function Project({ project }) {
             {/* project code */}
             <Card.Body>
                 <Grid xs={12}>
-                    <Text className="githubRepo">GITHUB: {project.link}</Text>
+                    <Text className="descriptionProject">DESCRIPCIÓN: {project.description}</Text>
                 </Grid>
                 <Grid xs={12}>
-                    <Text className="descriptionProject">DESCRIPCIÓN: {project.description}</Text>
+                    <Text className="githubRepo">GITHUB: {project.link}</Text>
                 </Grid>
             </Card.Body>
         </Card>
