@@ -66,6 +66,9 @@ export const Content = () => (
     {/* CONTACTO */}
     <Row className="contactoContent">
       <Grid.Container gap={3} >
+      <Grid xs={12} className="footerContactContent">
+        <Text className="footerContact">Andrés Wallberg | +56993514859 | andres.wv99@gmail.com</Text>
+      </Grid>
         <Grid xs={2}></Grid>
         <Grid xs={2}>
         <Link href="https://github.com/AndresWV"><BsGithub className="socialNetLogo" /></Link>
