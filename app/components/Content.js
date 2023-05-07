@@ -19,9 +19,9 @@ const projectsDataEng = [
   },
   {
     logo: '/img/r.png',
-    title: 'Proyecto introductorio a R',
-    link: 'https://githubo.com/AndresWV/ejemplo.R',
-    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
+    title: 'Análisis iris dataset',
+    link: 'https://github.com/AndresWV/procesamiento-irisDataset-r',
+    description: 'Breve análisis realizado sobre el dataset iris. El script fue desarrollado en R.'
   },
   {
     logo: '/img/airflow.png',
@@ -51,7 +51,7 @@ const projectsDataEng = [
     logo: '/img/python.png',
     title: 'TensorFlow | LibSVM - Heart Attack Analysis & Prediction Dataset',
     link: 'https://colab.research.google.com/drive/17k_VE3_GA-KBc8P4Kv_lRcB3YN76Tul1?usp=sharing#scrollTo=7Zup9THO_0mu',
-    description: 'Proyecto en modalidad colaborativa (con 2 personas más), el cual consta de una implementación de Machine Learning a través de LibSVM y una implementación de Deep Learning a través de Tensorflow, aplicada al dataset Heart Attack Analysis & Prediction Dataset de Kaggle, Este proyecto es realizado con el fin de resolver un problema supervisado de clasificación, el cual busca detectar personas con tendencias a ataques cardiacos'
+    description: 'Proyecto en modalidad colaborativa (con 2 personas más), el cual consta de una implementación de Machine Learning a través de LibSVM y una implementación de Deep Learning a través de Tensorflow, aplicada al dataset Heart Attack Analysis & Prediction Dataset de Kaggle, Este proyecto es realizado con el fin de resolver un problema supervisado de clasificación, el cual busca detectar personas con tendencias a ataques cardiacos.'
   },
 ]
 const projectsSoftwareEng = [
@@ -62,20 +62,32 @@ const projectsSoftwareEng = [
     description: 'Proyecto académico, realizado en colaborativo con 4 compañeros. El proyecto consiste en un tracking de GPS, para el bus de la Universidad de Talca. El front del proyecto fue desarrollado en Vue, el back fue desarrollado con express. Para recibir las coordenadas de geolocalización se hace a través de un socket, el cual fue configurado previamente en GCP'
   },
   {
-    logo: '/img/next.png',
-    title: 'Proyecto introductorio a R',
-    link: 'https://githubo.com/AndresWV/ejemplo.R',
-    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
-  },
-  {
-    logo: '/img/laravel.png',
-    title: 'Proyecto introductorio a Apache Airflow',
-    link: 'https://githubo.com/AndresWV/ejemplo.R',
-    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
+    logo: '/img/vue.png',
+    title: 'Monitoreo inteligente de bicicletas',
+    link: 'https://github.com/AndresWV/bicicletero',
+    description: 'Proyecto académico, realizado en colaborativo con 3 compañeros. El proyecto consiste en una aplicación que permita monitorear a través de las cámaras las bicicletas de la Universidad de Talca, además de llevar un control del ingreso y egreso de los estudiantes al bicicletero. El front del proyecto fue desarrollado en Vue+Vuetify, el back fue desarrollado con express y Firebase. El deploy fue realizado en GCP'
   },
   {
     logo: '/img/vue.png',
-    title: 'Proyecto introductorio a Python',
+    title: 'Sistema Inteligente de Horarios Digitales',
+    link: 'https://github.com/AndresWV/horarios',
+    description: 'Proyecto académico, realizado en colaborativo con 3 compañeros. El proyecto consiste en una aplicación que permita gestionar las salas de la Universidad de Talca. Se pueden distinguir 2 usuarios, funcionarios y estudiantes, los funcionarios pueden cargar los horarios de cada sala y los estudiantes a través del escaneo de un código QR pueden verificar el horario semanal de las salas, además de poder buscar sus salas y el horario de la sala. El front del proyecto fue desarrollado en Vue+Vuetify, el back fue desarrollado con express y Firebase. El deploy fue realizado en GCP'
+  },
+  {
+    logo: '/img/next.png',
+    title: 'Portafolio de Data Engineer | Software Engineer',
+    link: 'https://github.com/AndresWV/portafolio',
+    description: 'El portafolio que se está viendo fue realizar con, NextJS, NextUI y Bootstrap 5.'
+  },
+  {
+    logo: '/img/laravel.png',
+    title: 'Proyecto Laravel PHP',
+    link: 'https://githubo.com/AndresWV/ejemplo.R',
+    description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
+  },
+  {
+    logo: '/img/next.png',
+    title: 'Proyecto NextJS',
     link: 'https://githubo.com/AndresWV/ejemplo.R',
     description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
   },
