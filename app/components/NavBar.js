@@ -1,4 +1,5 @@
 import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
+import Image from "next/image";
 import '../assets/css/nav.css'
 export default function NavBar() {
     const collapseItems = [
@@ -18,9 +19,14 @@ export default function NavBar() {
                     },
                 }}
             >
-                <Text b color="inherit" hideIn="xs">
-                    ACME
-                </Text>
+                <Image
+                    width={200}
+                    height={200}
+                    src="/img/logo1.png"
+                    alt="Andrés Wallberg"
+                    className="logo"
+                    hideIn="xs"
+                />
             </Navbar.Brand>
             <Navbar.Content
                 enableCursorHighlight
@@ -33,7 +39,7 @@ export default function NavBar() {
                 <Navbar.Link href="#software">SOFTWARE ENGINEER</Navbar.Link>
                 <Navbar.Link href="#contact">CONTACTO</Navbar.Link>
             </Navbar.Content>
-            
+
             <Navbar.Collapse>
                 {collapseItems.map((item, index) => (
                     <Navbar.CollapseItem
