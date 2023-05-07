@@ -2,13 +2,14 @@
 import '../assets/css/content.css'
 import '../assets/css/project.css'
 import Image from "next/image";
-import { Container, Row, Text, Col, Link, Card } from "@nextui-org/react";
+import { Grid, Text, Link, Card } from "@nextui-org/react";
 export default function Project({ project }) {
+    const linkk = project.link
     return (
         <Card className="projectCard">
             {/* project title */}
             <Card.Header>
-                <Col xs={4}>
+                <Grid xs={2}>
                     <Image
                         width={100}
                         height={80}
@@ -16,19 +17,20 @@ export default function Project({ project }) {
                         className="logoStackDataEng"
                         alt={project.logo}
                     />
-                </Col>
-                <Col xs={4}>
-                    <Text>{project.title}</Text>
-                </Col>
+                </Grid>
+                <Grid xs={4} className="contentTitleCard">
+                    <Text className="textTitleCard">{project.title}</Text>
+                </Grid>
+                <Grid xs={6}></Grid>
             </Card.Header>
             {/* project code */}
             <Card.Body>
-                <Row>
-                    <Text>{project.link}</Text>
-                </Row>
-                <Row>
-                    <Text>{project.description}</Text>
-                </Row>
+                <Grid xs={12}>
+                    <Text className="githubRepo">GITHUB: {project.link}</Text>
+                </Grid>
+                <Grid xs={12}>
+                    <Text className="descriptionProject">DESCRIPCIÓN: {project.description}</Text>
+                </Grid>
             </Card.Body>
         </Card>
     );

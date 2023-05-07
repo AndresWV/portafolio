@@ -51,6 +51,17 @@
 .footerContact{
     color: aliceblue !important;
 }
+.contentTitleSection{
+    padding-left: 15%;
+    margin-bottom: 7%;
+}
+.contentTitleSectionData{
+    padding-left: 17%;
+}
+.titleSection{
+    font-size: 3vw;
+    text-align: center !important;
+}
 @media screen and (max-width:1280px) {
     .logoStackDataEng {
         width: 100px;

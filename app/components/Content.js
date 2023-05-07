@@ -16,25 +16,25 @@ const logosSoftwareEnginer = ['/img/next.png', '/img/js.png', '/img/laravel.png'
 const projectsDataEng = [
   {
     logo: '/img/beam.png',
-    title: 'Apache Beam',
+    title: 'Proyecto introductorio a Apache Beam',
     link: 'https://githubo.com/AndresWV/ejemplo.R',
     description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
   },
   {
     logo: '/img/r.png',
-    title: 'R',
+    title: 'Proyecto introductorio a R',
     link: 'https://githubo.com/AndresWV/ejemplo.R',
     description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
   },
   {
     logo: '/img/airflow.png',
-    title: 'Apache Airflow',
+    title: 'Proyecto introductorio a Apache Airflow',
     link: 'https://githubo.com/AndresWV/ejemplo.R',
     description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
   },
   {
     logo: '/img/python.png',
-    title: 'Python',
+    title: 'Proyecto introductorio a Python',
     link: 'https://githubo.com/AndresWV/ejemplo.R',
     description: 'El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo.'
   },
@@ -53,6 +53,9 @@ export const Content = () => (
     {/* DATA ENGINEER */}
     <Row className="dataEngineerContent" id="data">
       <Col>
+        <Row className="contentTitleSection contentTitleSectionData">
+          <Text className="titleSection">Trabajos como Data Engineer</Text>
+        </Row>
         {/* logos */}
         <Row className="stackDataEngineer">
           {logosDataEnginer.map((item, index) => (
@@ -78,6 +81,9 @@ export const Content = () => (
     {/* SOFTWARE ENGINEER */}
     <Row className="dataEngineerContent" id="software">
       <Col>
+        <Row className="contentTitleSection">
+          <Text className="titleSection">Trabajos como Software Engineer</Text>
+        </Row>
         {/* logos */}
         <Row className="stackDataEngineer">
           {logosSoftwareEnginer.map((itemSoftware, indexSoft) => (

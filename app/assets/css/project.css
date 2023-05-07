@@ -2,3 +2,17 @@
     padding: 2% !important;
     margin-bottom: 2% !important;
 }
+.contentTitleCard{
+    float: left;
+    
+}
+.textTitleCard{
+    font-size: 1.5vw !important;
+}
+.githubRepo{
+    font-size: 1vw !important;
+    color: #ADF5CC !important;
+}
+.descriptionProject{
+
+}
