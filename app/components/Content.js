@@ -16,7 +16,7 @@ export const Content = () => (
 
   <Container className="Contentback">
     {/* ACERCA DE MI */}
-    <Row className="aboutMyContent">
+    <Row className="aboutMyContent" id="about">
       <Col>
         <Row><Text b className="principalJob">Data Engineer</Text></Row>
         <Row><Text className="secJob">Software Engineer</Text></Row>
@@ -24,7 +24,7 @@ export const Content = () => (
       </Col>
     </Row>
     {/* DATA ENGINEER */}
-    <Row className="dataEngineerContent">
+    <Row className="dataEngineerContent" id="data">
       <Col>
         {/* logos */}
         <Row className="stackDataEngineer">
@@ -44,7 +44,7 @@ export const Content = () => (
       </Col>
     </Row>
     {/* SOFTWARE ENGINEER */}
-    <Row className="dataEngineerContent">
+    <Row className="dataEngineerContent" id="software">
       <Col>
         {/* logos */}
         <Row className="stackDataEngineer">
@@ -64,7 +64,7 @@ export const Content = () => (
       </Col>
     </Row>
     {/* CONTACTO */}
-    <Row className="contactoContent">
+    <Row className="contactoContent" id="contact">
       <Grid.Container gap={3} >
       <Grid xs={12} className="footerContactContent">
         <Text className="footerContact">Andrés Wallberg | +56993514859 | andres.wv99@gmail.com</Text>

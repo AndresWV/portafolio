@@ -28,10 +28,10 @@ export default function NavBar() {
                 hideIn="xs"
                 variant="highlight-rounded"
             >
-                <Navbar.Link href="#">ACERCA DE MÍ</Navbar.Link>
-                <Navbar.Link href="#">DATA ENGINEER</Navbar.Link>
-                <Navbar.Link href="#">SOFTWARE ENGINEER</Navbar.Link>
-                <Navbar.Link href="#">CONTACTO</Navbar.Link>
+                <Navbar.Link href="#about">ACERCA DE MÍ</Navbar.Link>
+                <Navbar.Link href="#data">DATA ENGINEER</Navbar.Link>
+                <Navbar.Link href="#software">SOFTWARE ENGINEER</Navbar.Link>
+                <Navbar.Link href="#contact">CONTACTO</Navbar.Link>
             </Navbar.Content>
             
             <Navbar.Collapse>
