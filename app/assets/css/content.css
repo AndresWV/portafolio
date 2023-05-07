@@ -31,15 +31,30 @@
     padding-left: 15%;
     padding-right: 15%;
 }
+.contactoContent{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    background-color: #0a192f;
+}
+
+.socialNetLogo{
+    color: aliceblue;
+    font-size: 65px;
+}
 
 @media screen and (max-width:1280px) {
     .logoStackDataEng {
         width: 100px;
         max-height: 100px;
     }
+    .socialNetLogo{
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width:961px) {
+    
     .logoStackDataEng {
         max-width: 80px;
         max-height: 80px;
@@ -75,6 +90,9 @@
     .descriptionText {
         font-size: 3.5vw;
     }
+    .socialNetLogo{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:407px) {
@@ -93,5 +111,9 @@
 
     .descriptionText {
         font-size: 4.5vw;
+    }
+    .contactoContent{
+        padding: 0;
+        margin: 0;
     }
 }
