@@ -32,8 +32,8 @@ export const Content = () => (
             <Col key={index}>
               <Image
                 key={item}
-                width={110}
-                height={110}
+                width={100}
+                height={80}
                 src={item}
                 className="logoStackDataEng"
                 alt={item}
@@ -52,8 +52,8 @@ export const Content = () => (
             <Col key={indexSoft}>
               <Image
                 key={itemSoftware}
-                width={150}
-                height={130}
+                width={100}
+                height={80}
                 src={itemSoftware}
                 className="logoStackDataEng"
                 alt={itemSoftware}
